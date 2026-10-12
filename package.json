@@ -6,21 +6,32 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "migrate": "tsx --env-file=.env scripts/migrate.ts",
+    "worker": "tsx --env-file=.env scripts/worker.ts",
+    "enqueue:50": "node scripts/enqueue-50.js",
+    "test_enqueue": "node test_enqueue.js",
+    "test_enqueue_double": "node test_enqueue_double.js",
+    "test_status": "node test_status.js"
   },
   "dependencies": {
     "next": "16.4.0",
+    "nodemailer": "^10.0.15",
+    "pg": "^8.23.1",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
+    "@types/nodemailer": "^8.0.2",
+    "@types/pg": "^8.23.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }

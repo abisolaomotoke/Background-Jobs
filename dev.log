@@ -1,0 +1,36 @@
+
+> background-jobs@0.1.0 dev
+> next dev
+
+▲ Next.js 16.4.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.24.80.1:3000
+- Environments: .env
+✓ Ready in 21.9s
+⚠ Warning: Next.js ignored package-lock.json in C:\Users\user because it is outside the current Git repository (C:\Users\user\Desktop\Background-Jobs\background-jobs).
+ To use this directory, set `turbopack.root` in your Next.js config.
+
+✓ Running next.config.ts took 1436ms
+⚠ Slow filesystem detected. The benchmark took 960ms. If \\?\C:\Users\user\Desktop\Background-Jobs\background-jobs\.next\dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+- Cache Components enabled
+- Partial Prefetching enabled
+
+○ Compiling /api/jobs ...
+ POST /api/jobs 202 in 10.7s (next.js: 6.5s, application-code: 4.3s)
+ POST /api/jobs 202 in 4.2s (next.js: 4ms, application-code: 4.2s)
+ POST /api/jobs 202 in 59ms (next.js: 7ms, application-code: 52ms)
+ GET /api/jobs/1 200 in 13.4s (next.js: 12.8s, application-code: 535ms)
+ GET /api/jobs/abc 400 in 125ms (next.js: 109ms, application-code: 16ms)
+ GET /api/jobs/999 404 in 25ms (next.js: 5ms, application-code: 20ms)
+ POST /api/jobs 202 in 4.2s (next.js: 785ms, application-code: 3.4s)
+ GET /api/jobs/10 200 in 1669ms (next.js: 1119ms, application-code: 550ms)
+ GET /api/jobs/10 200 in 1317ms (next.js: 11ms, application-code: 1306ms)
+ GET /api/jobs/10 200 in 31ms (next.js: 7ms, application-code: 24ms)
+ GET /api/jobs/10 200 in 9.7s (next.js: 5.2s, application-code: 4.5s)
+ GET /api/jobs/10 200 in 917ms (next.js: 789ms, application-code: 128ms)
+ GET /api/jobs/10 200 in 560ms (next.js: 175ms, application-code: 386ms)
+✓ Finished writing to filesystem cache in 17.0s
+✓ Finished writing to filesystem cache in 20.8s
+✓ Finished filesystem cache database compaction in 11.1s
+[?25h
